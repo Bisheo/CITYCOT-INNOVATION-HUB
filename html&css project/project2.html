@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        .container {
+            max-width: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: white
+        }
+
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 20px;
+            text-align: center;
+            background-color: blueviolet;
+            color: #fff;
+            padding: 1em 2em;
+            border-radius: 10px;
+            font-weight: 1000px;
+            font-size: large;
+        }
+
+        nav,
+        a {
+            text-align: center;
+            background-color: rgb(39, 39, 39);
+            color: white;
+
+            border-radius: 10px;
+            padding: 1em;
+        }
+
+
+
+        .section1 {
+            text-align: center;
+            text-transform: capitalize;
+
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        table {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            padding: 1.5em;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color:blueviolet;
+            color: white;
+        }
+
+        .testimonials {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .testimonial-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .testimonial {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(49, 2, 2, 0.1);
+            text-align: center;
+        }
+
+        .testimonial img {
+            width: 30px;
+            margin-bottom: 10px;
+        }
+
+        textarea,
+        input {
+            width: 100%;
+
+        }
+
+        button {
+            width: 100%;
+            text-align: center;
+            background-color: blueviolet;
+            color: white;
+            padding: 10px;
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        HTML Learning project
+    </header>
+    <nav>
+
+        <a href="#">About </a>
+        <a href="#">Project </a>
+        <a href="#">Testimonials </a>
+        <a href="#">Contact </a>
+
+    </nav>
+
+    <section class="section1">
+        <h1>About This project</h1>
+        <p>This project helps student learn HTML and CSS basics by building a fuctional webpage</p>
+        <img src="som.jpg" width="50" height="auto">
+    </section>
+    <table border="1px">
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Portfolio website</td>
+            <td>Showcase your project and skills</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>Personal Blog</td>
+            <td>A simple blogging platform</td>
+            <td>In progress</td>
+        </tr>
+
+        <h3>Project List</h3>
+    </table>
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <p> <strong>Challenge:</strong> Recreate this grid layout of testimonials using HTML and CSS.</p>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <img src="som.jpg">
+                <h3>Reviewer One</h3>
+                <p>"This project taught me a lot about HTML and CSS. I feel much more confident now!"</p>
+            </div>
+            <div class="testimonial">
+                <img src="som.jpg">
+                <h3>Reviewer Two</h3>
+                <p>"A challenging but rewarding experience. Highly recommended for beginners."</p>
+            </div>
+            <div class="testimonial">
+                <img src="som.jpg">
+                <h3>Reviewer Three</h3>
+                <p>"I was able to create a functional webpage by the end of this project!"</p>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section>
+        <h2>Contact Me</h2>
+        <form>
+            <label for="Name">Name:</label><br><br>
+            <input type="text" name="Name" id="Name" placeholder="Enter your name"><br><br>
+            <label for="Name">Email:</label><br><br>
+            <input type="Email" name="Email" id="Email" placeholder="Enter your email"><br><br>
+            <label for="Message">Message:</label><br>
+            <textarea name="Message" id="Message" placeholder="Write here"></textarea>
+        </form><br>
+    </section>
+    <button type="Send">Send</button>
+
+</body>
+
+</html>
