@@ -1,1 +1,1 @@
-
+This project is a simple HTML-based portfolio website designed for a frontend developer. It provides an organized layout with sections to showcase personal information, work experience, projects, education.
