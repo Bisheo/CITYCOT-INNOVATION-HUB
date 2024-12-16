@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/a073d05399.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ 
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+  <!-- Subject Attendance Section -->
+  <div class="card">
+    <div class="card-header bg-primary text-white text-start">
+      <h5>Subject Attendance</h5>
+    </div>
+    <div class="card-body">
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-graduation-cap"></i></span>
+            <select class="form-select">
+              <option selected>Computer Science</option>
+              <option>Midwifery</option>
+              <option>Engineering</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+            <input type="text" class="form-control" placeholder="Jan-May-2024">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-layer-group"></i></span>
+            <select class="form-select">
+              <option selected>Semester 3</option>
+              <option>Semester 4</option>
+              <option>Semester 5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-clock"></i></span>
+            <select class="form-select">
+              <option selected>Afternoon</option>
+              <option>Morning</option>
+              <option>Evening</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-book"></i></span>
+            <input type="text" class="form-control" placeholder="DCS/3002 - PHP&MySQL">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-check-circle"></i></span>
+            <select class="form-select">
+              <option selected>Attendance Wasn't Submitted Yet</option>
+              <option>Attendance Submitted</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-calendar-day"></i></span>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="mt-4">
+        <button class="btn btn-success"><i class="fas fa-check-circle"></i> Submit Attendance</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Attendance List Section -->
+  <div class="card mt-4">
+    <div class="card-header bg-primary text-white">
+      <h5>Attendance List</h5>
+    </div>
+    <div class="card-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Attendance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>12345</td>
+            <td>Mohamed Ahmed</td>
+            <td>
+              <select class="form-select">
+                <option selected>Present</option>
+                <option>Absent</option>
+                <option>Leave</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>12343</td>
+            <td>Fatima Ali</td>
+            <td>
+              <select class="form-select">
+                <option selected>Present</option>
+                <option>Absent</option>
+                <option>Leave</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>12347</td>
+            <td>Abdi Ibrahim</td>
+            <td>
+              <select class="form-select">
+                <option selected>Present</option>
+                <option>Absent</option>
+                <option>Leave</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>12348</td>
+            <td>Amina Hassan</td>
+            <td>
+              <select class="form-select">
+                <option selected>Present</option>
+                <option>Absent</option>
+                <option>Leave</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>12349</td>
+            <td>Ali Mohamed</td>
+            <td>
+              <select class="form-select">
+                <option selected>Present</option>
+                <option>Absent</option>
+                <option>Leave</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
