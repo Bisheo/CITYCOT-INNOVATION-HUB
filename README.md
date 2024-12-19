@@ -1,4 +1,5 @@
 This repository will highlight my progress in web development, where I create, explore, and enhance.
+ ## HTML and CSS Prejects
 
 Project 1: the frist project was a simple portfolio created using only HTML [Link Here](https://github.com/Bisheo/FRONTEND-PROJECT)
 
