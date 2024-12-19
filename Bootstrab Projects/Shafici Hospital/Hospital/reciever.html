@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Request</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="card-tittle">
+                <h5>Blood Donation Registration</h5>
+            </div>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="row  g-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Full Name </label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user" style="color: blue;"></i></span>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    placeholder="Enter Full Name">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope" style="color: blue;"></i></span>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Enter your Email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-phone"
+                                    style="color: blue;"></i></span>
+                                <input type="text" class="form-control" id="contact" name="contact"
+                                    placeholder="Enter Phone Number">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  g-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Region</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-sharp fa-solid fa-location-dot" style="color: blue;"></i></span>
+                                <select name="town" id="town" class="form-select">
+                                    <option value="Banadir">Banadir</option>
+                                    <option value="Galgaduud">Galgaduud</option>
+                                    <option value="Hiiran">Hiiran</option>
+                                    <option value="Jubaland">Jubaland</option>
+                                    <option value="Middle Shabale">Middle Shabale</option>
+                                    <option value="Bay">Bay</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Town</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-building" style="color: blue;"></i></span>
+                                <input type="text" class="form-control" id="contact" name="contact"
+                                    placeholder="Enter Town">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Village</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-building" style="color: blue;"></i></span>
+                                <input type="text" class="form-control" id="contact" name="contact"
+                                    placeholder="Enter Village">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  g-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Blood Type </label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-droplet"
+                                    style="color: blue;"></i></span>
+                                <select name="Blood" id="Blood" class="form-select">
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                    <option value="O+">O+</option>
+                                    <OPtion value="O-">O-</OPtion>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 mb-4">
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-success w-100">Request <i class="fa-brand fa-telegram " style="color: rgb(250, 250, 250);"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-danger w-100">Reset <i class="fa-solid fa-rotate-right" style="color: rgb(250, 250, 250);"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-warning w-100">Update <i class="fas fa-pen" style="color: rgb(250, 250, 250);"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-info w-100">Search <i class="fas fa-search" style="color: rgb(250, 250, 250);"></i></button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <div class="card-tittle">
+                <h5>List of Blood Request</h5>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Region</th>
+                    <th>Town</th>
+                    <th>Village</th>
+                    <th>Blood type</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ahmed Ali</td>
+                    <td>ahmedali@gmail.com</td>
+                    <td>345-867-874</td>
+                    <td>Banadir</td>
+                    <td>Mogadishu</td>
+                    <td>Hodan</td>
+                    <td>A+</td>
+                    <td>Accepted</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Fatiam Hasaan</td>
+                    <td>fatimahassan@.com</td>
+                    <td>764-764-234</td>
+                    <td>Galgaduud</td>
+                    <td>dhuusomareeb</td>
+                    <td>boorama</td>
+                    <td>B+</td>
+                    <td>Waiting</td>
+                </tr>
+                
+
+                <tr>
+                    <td>3</td>
+                    <td>mohamed nuur</td>
+                    <td>mohamednuur@.com</td>
+                    <td>908-654-231</td>
+                    <td>Hiiran</td>
+                    <td>belet wayne</td>
+                    <td>wabari</td>
+                    <td>O+</td>
+                    <td>Rejected</td>
+                </tr>
+                
+
+                <tr>
+                    <td>4</td>
+                    <td>Aamina ibrahim</td>
+                    <td>Aaminaibrahim@.com</td>
+                    <td>021-987-543</td>
+                    <td>Jubaland</td>
+                    <td>Kismayo</td>
+                    <td>Qoqani</td>
+                    <td>AB+</td>
+                    <td>Waiting</td>
+                </tr>
+                
+
+                <tr>
+                    <td>5</td>
+                    <td>Omar Mohamed</td>
+                    <td>omarmohamed@gmail.com</td>
+                    <td>123-574-986</td>
+                    <td>Karkaar</td>
+                    <td>Hargeisa</td>
+                    <td>Oodweyne</td>
+                    <td>A-</td>
+                    <td>Accepted</td>
+                </tr>
+                
+
+                <tr>
+                    <td>6</td>
+                    <td>Layla yusuf</td>
+                    <td>laylayusuf@gmail.com</td>
+                    <td>345-867-874</td>
+                    <td>Middle Shabale</td>
+                    <td>Jowhar</td>
+                    <td>webishabeel</td>
+                    <td>O-</td>
+                    <td>Rejected</td>
+                </tr>
+                
+
+                <tr>
+                    <td>7</td>
+                    <td>Ahmed Ali</td>
+                    <td>ahmedali@gmail.com</td>
+                    <td>345-867-874</td>
+                    <td>Banadir</td>
+                    <td>Mogadishu</td>
+                    <td>Hodan</td>
+                    <td>A+</td>
+                    <td>Accepted</td>
+                </tr>
+                
+
+                <tr>
+                    <td>8</td>
+                    <td>Abdi Rahman</td>
+                    <td>abdirahmaani@gmail.com</td>
+                    <td>345-887-997</td>
+                    <td>Middle Shabale</td>
+                    <td>jowhar</td>
+                    <td>Oodweyne</td>
+                    <td>A+</td>
+                    <td>Accepted</td>
+                </tr>
+                
+
+                <tr>
+                    <td>9</td>
+                    <td>Saado Ali </td>
+                    <td>saadoali@gmail.com</td>
+                    <td>345-867-874</td>
+                    <td>Bay</td>
+                    <td>Baidoa</td>
+                    <td>Baydhabo</td>
+                    <td>B-</td>
+                    <td>Waiting</td>
+                </tr>
+                
+                
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

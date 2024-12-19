@@ -1,0 +1,11 @@
+
+ .card-header{
+    background-color:#4da674;
+ } 
+ h5{
+    color: rgb(129, 196, 162);
+ }
+ .card-body{
+    background-color: #c1e6ba;
+    justify-content: center;
+ }

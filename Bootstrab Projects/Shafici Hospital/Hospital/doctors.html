@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Doctor Registration Form -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-tittle">
+                <h5>Add New Doctor</h5>
+            </div>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="row  g-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Full Name </label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user" style="color: blue;"></i> </span>
+                                <input type="text" class="form-control" id="fullname" name="fullname"
+                                    placeholder="Enter full name">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope" style="color: blue;"></i></span>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Enter your Email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Tittle</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-briefcase" style="color: blue;"></i></span>
+                                <input type="text" class="form-control" id="tittle" name="tittle"
+                                    placeholder="Enter your tittle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Department</label>
+                            <div class="input-group">
+                                <span class="input-group-text"> <i class="fa-solid fa-building" style="color: blue;"></i></span>
+                                <select name="Department" id="" class="form-select">
+                                    <option value="Cardiology">Cardiology</option>
+                                    <option value="Neurology">Neurology</option>
+                                    <option value="Neurocardiology">Neurocardiology</option>
+
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Experience</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-sharp fa-solid fa-briefcase" style="color: blue;"></i></span> 
+                                <input type="email" class="form-control" id="experience" name="experience"
+                                    placeholder="Enter Experience in years">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Contact Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-phone" style="color: blue;"></i></span>
+                                <input type="text" class="form-control" id="contactnumber" name="contactnumber"
+                                    placeholder="Enter Contact Number">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-3 mb-3">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Degree </label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-graduation-cap" style="color: blue;"></i></span>
+                                <input type="text" class="form-control" id="enter degree" name="enter Degree"
+                                    placeholder="Enter Degree ">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Fees</label>
+                            <div class="input-group">
+                                <span class="input-group-text"> <i class="fa-solid fa-dollar" style="color: blue;"></i> </span>
+                                <input type="email" class="form-control" id="Fees" name="Fees"
+                                    placeholder="Enter Fees ">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="form-label">Profile Phote</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fa-solid fa-camera" style="color: blue;"></i></span>
+                                <input type="file" class="form-control-file" id="fileinput" name="fileinput"
+                                    placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 mb-4">
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-success w-100">Save <i class="fas fa-save"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-danger w-100">Delete <i class="fas fa-trash"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-warning w-100">Update <i class="fas fa-pen"></i></button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-info w-100">Search <i class="fas fa-search"></i></button>
+                    </div>
+
+                </div>
+                
+            </form>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-tittle">List of Doctors</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Tittle</th>
+                            <th>Department</th>
+                            <th>Experience</th>
+                            <th>Contact</th>
+                            <th>Fees</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Dr.john Doe</td>
+                            <td>johndeo@gmail.com</td>
+                            <td>Cardiologist</td>
+                            <td>Cardiology</td>
+                            <td>10 years</td>
+                            <td>123-456-789</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Dr.jane smith</td>
+                            <td>janesmith@gmail.com</td>
+                            <td>Neurologist</td>
+                            <td>Neurology</td>
+                            <td>8 years</td>
+                            <td>876-654-643</td>
+                            <td>$120</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
