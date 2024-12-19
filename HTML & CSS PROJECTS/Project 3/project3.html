@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f3ebeb;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+
+        }
+        header{
+            background-color: rgb(27, 248, 27);
+          text-align: center;
+          color: #ffffff;
+          font-size: 1.5em;
+          font-weight: bold;
+          padding: 25px;
+        }
+    textarea,input{
+            width: 100%;
+           padding: 10px;
+           border: .5px solid grey;
+           border-radius: .5px;
+        }
+        
+        button{
+            width: 100%;
+            text-align: center;
+           background-color: rgb(27, 248, 27);
+           color: white;
+        }
+        table{
+            width: 100%;
+    
+            
+        }
+        th{
+            background-color: rgb(27, 248, 27);
+        }
+        td:hover{
+            background-color: grey;
+            
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        Student Enrollment form
+    </header>
+    <h2>Enrollment Form</h2>
+    <label for="">Full Name:</label><br>
+    <input type="text" name="full Name" id="full Name"><br>
+    <label for="">Email:</label><br>
+    <input type="email" name="email" id="email"><br> <br>
+    <label for="Select course">Select Course</label><br>
+    <select name="course" id="course"><br>
+       
+        <option value="HTML Basic">HTML Basic</option><br>
+        <option value="CSS tutorial">CSS tutorial </option>
+        <option value="JavaScript Essential"> JavaScript Essential</option><br>
+    </select><br>
+    <label for="Additional Information">Additional Information</label><br>
+    <textarea name="Additional Information" id="Additional Information" rows="3">
+
+    </textarea><br><br>
+    <button type="submit">submit</button>
+    <h3>Enrolled Studebtent</h3>
+    <table border="1px">
+        <tr>
+            <th>Student ID</th>
+            <th>Full Name</th>
+            <th>Course</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ayan Mohamed</td>
+            <td>HTML Basics</td>
+            <td>Ayan@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ali Noor</td>
+            <td>CSS tutorial</td>
+            <td>Ali@gmail.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sara Ahmed</td>
+            <td>sara@gmail.com</td>
+            <td>JavaScript Essential</td>
+        </tr>
+    </table>
+    <footer>
+        &copy; citycotiHub. All right resedrved 
+    </footer>
+
+
+</body>
+</html>
