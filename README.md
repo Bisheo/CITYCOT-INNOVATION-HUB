@@ -14,9 +14,9 @@ Project 6: Registering webpage contains from used build HTML and CSS [link Here]
 
 ## HTML CSS and Bootstrab projects
 
-Project 5: To register in a university system that include login for student department teachers and expenses using HTML CSS and Bootstrab [link Here](https://github.com/Bisheo/CITYCOT-INNOVATION-HUB/tree/main/HTML%20%26%20CSS%20PROJECTS/Project%207)
+Project 7: To register in a university system that include login for student department teachers and expenses using HTML CSS and Bootstrab [link Here](https://github.com/Bisheo/CITYCOT-INNOVATION-HUB/tree/main/HTML%20%26%20CSS%20PROJECTS/Project%207)
 
-Project 6:It should incluse a hospital where dectors can register ,a pateint list ,donors and receivers using HTML CSS and Bootstrab [link Here](https://github.com/Bisheo/CITYCOT-INNOVATION-HUB/tree/main/HTML%20%26%20CSS%20PROJECTS/Project%208/Hospital)
+Project 8:It should incluse a hospital where dectors can register ,a pateint list ,donors and receivers using HTML CSS and Bootstrab [link Here](https://github.com/Bisheo/CITYCOT-INNOVATION-HUB/tree/main/HTML%20%26%20CSS%20PROJECTS/Project%208/Hospital)
 
 
 
