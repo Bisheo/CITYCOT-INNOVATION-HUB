@@ -1,5 +1,5 @@
 This repository will highlight my progress in web development, where I create, explore, and enhance.
-# List of projects in this repository
+# List of projects in this repository:
 
  ## HTML and CSS Prejects
 Project 1: It is a simple HTML and CSS webpage containing a header, three sections for content and a footer.[link Here](https://github.com/Bisheo/CITYCOT-INNOVATION-HUB/blob/main/HTML%20%26%20CSS%20PROJECTS/Project%204/project4.html)
